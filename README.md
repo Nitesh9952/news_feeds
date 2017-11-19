@@ -15,11 +15,11 @@ Things you may want to cover:
 API Details
 
 * Fetch recent posts
-URL: http://localhost:3000/
+URL: http://localhost:3000/v1/newsfeeds
 
 important response headers
 
-link →<http://localhost:3000/?page=136>; rel="last", <http://localhost:3000/?page=2>; rel="next"
+link →<http://localhost:3000/v1/newsfeeds?page=136>; rel="last", <http://localhost:3000/v1/newsfeeds?page=2>; rel="next"
 per-page →50
 total →6762
 
