@@ -1,4 +1,4 @@
-class NewsfeedController < ApplicationController
+class V1::NewsfeedsController < ApplicationController
 	include PostHelper
 
 	def index
